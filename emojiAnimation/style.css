@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d8d8d8;
+}
+
+.generalTitle{
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+
+#emojiTitle{
+    font-size: 1.8rem;
+    font-family: cursive;
+    color: #6763a0;
+}
+
+.emoji{
+    font-size: 7rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.baby{
+    display: none;
+}
+
+.girl{
+    display: none;
+}
+
+.adult{
+    display: none;
+}
+
+.old{
+    display: none;
+}
+
+.active{
+    display: block;
+}
