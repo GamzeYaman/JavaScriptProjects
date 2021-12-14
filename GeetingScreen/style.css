@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f0c4e4;
+}
+
+.baslik{
+    padding-top: 25px;
+    color: #0d6d70;
+}
+
+#greetingName{
+    color: aliceblue;
+}
+
+.intro{
+    padding: 10px;
+    color: #36502f;
+}
+
+#date{
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.outro{
+    padding: 10px;
+    color: #0a595c;
+}
+
