@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: cursive;
+    text-align: center;
+    background-color: #ffbfe7;
+}
+
+.toDoTitle{
+    color: #383386;
+    font-size: 50px;
+    margin: 30px;
+}
+
+#toDoInputText{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    border-color: #fff;
+}
+
+button{
+    width: 20%;
+    border-radius: 14px;
+    background-color: #383386;
+    color: #fff;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.list-group-item{
+    background-color: #ffbfe7;
+    color: #000;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.toDoExplanation{
+    border: 2px solid #383386;
+}
